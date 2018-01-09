@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.description = "Graticule is a geocoding API that provides a common interface to all the popular services, including Google, Yahoo, Geocoder.us, and MetaCarta."
   spec.summary     = "API for using all the popular geocoding services"
   spec.homepage    = "https://github.com/collectiveidea/graticule"
-  spec.license     = "MIT"
+  spec.license     = "BSD-3-Clause"
 
   spec.files         = `git ls-files`.split($\)
   spec.test_files    = spec.files.grep(/^test/)
